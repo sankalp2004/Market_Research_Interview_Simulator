@@ -26,10 +26,7 @@ def create_folder_if_not_there(curr_path):
   the folder that contains the file. But the function also works even if the 
   path designates to just a folder. 
   Args:
-    curr_list: list to write. The list comes in the following form:
-               [['key1', 'val1-1', 'val1-2'...],
-                ['key2', 'val2-1', 'val2-2'...],]
-    outfile: name of the csv file to write    
+    curr_path: path to the current folder
   RETURNS: 
     True: if a new folder is created
     False: if a new folder is not created
@@ -73,7 +70,7 @@ def write_list_to_csv_line(line_list, outfile):
   appends a line to that file. 
   This also works if the file does not exist already. 
   ARGS:
-    curr_list: list to write. The list comes in the following form:
+    line_list: list to write. The list comes in the following form:
                ['key1', 'val1-1', 'val1-2'...]
                Importantly, this is NOT a list of list. 
     outfile: name of the csv file to write   

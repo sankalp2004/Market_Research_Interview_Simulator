@@ -100,3 +100,33 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# Virtual Environment
+genagents_env/
+.env
+.venv
+
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Django
+*.log
+db.sqlite3
+media/
+
+# Interview Results (optional)
+interview_results/
+*.json
+
+# IDE Files
+.vscode/
+.idea/
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Ollama models (large files)
+*.gguf

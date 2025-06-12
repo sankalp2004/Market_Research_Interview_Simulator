@@ -50,14 +50,12 @@ def compress(sim_code):
                                "description": i_move_dict[p]["description"], 
                                "chat": i_move_dict[p]["chat"]}
 
-
   create_folder_if_not_there(compressed_storage)
   with open(f"{compressed_storage}/master_movement.json", "w") as outfile:
     outfile.write(json.dumps(master_move, indent=2))
 
   shutil.copyfile(meta_file, f"{compressed_storage}/meta.json")
   shutil.copytree(persona_folder, f"{compressed_storage}/personas/")
-
 
 if __name__ == '__main__':
   compress("July1_the_ville_isabella_maria_klaus-step-3-9")
