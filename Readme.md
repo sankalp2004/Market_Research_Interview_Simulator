@@ -424,11 +424,6 @@ Please cite the original Stanford research when using this system:
 
 ## Support and Resources
 
-### Documentation
-- **Stanford Original**: Review the original generative agents paper for architectural details
-- **Ollama Documentation**: Visit ollama.com for model management and configuration
-- **Phi-3.5 Information**: Microsoft's documentation for model capabilities and limitations
-
 ### Key Benefits
 - **Zero API Costs**: Complete elimination of ongoing expenses through local model deployment
 - **Privacy Protection**: All data processing happens locally on your hardware
